@@ -1,0 +1,122 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    background: #2B2D42;
+    font-family: 'Mukta', sans-serif;
+}
+
+header,
+section {
+    background-color: #EDF2F4;
+}
+
+header>h1 {
+    margin-top: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+h1 {
+    color: #D90429
+}
+
+h2 {
+    color: #EF233C;
+    text-align: center;
+    border-top: 2px dotted #8D99AE;
+    border-bottom: 2px dotted #8D99AE;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+#contactus,
+#podcast {
+    margin-top: 6%;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+
+section {
+    padding: 3%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.submit {
+    background: #2B2D42;
+    color: #ffffff;
+}
+
+.submit,
+.reset {
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.reset {
+    background-color: #EDF2F4;
+    color: #2B2D42;
+}
+
+#created {
+    margin: 0;
+    text-align: right;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    Border-color: mediumvioletred;
+    Outline: mediumvioletred 3px solid;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        padding: 0 3% 3% 3%;
+    }
+    main {
+        margin: 2%;
+    }
+    .form-group>input,
+    .form-group>label,
+    .form-group>select {
+        display: block;
+        width: 100%;
+    }
+    input,
+    select {
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    input,
+    select {
+        width: 100%;
+    }
+}
